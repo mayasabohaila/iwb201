@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title> Properties</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./1-57_icon-icons.com_60327.ico">
+
+  
+</head>
+<body>
+
+<header>
+    <div>
+        
+        <a href="./Home.html">
+            <button type="button"> الصفحة الرئيسية </button>
+          </a>
+
+        <a href="./About us.html">
+            <button type="button"> من نحن</button>
+          </a>
+
+          <a href="./properties.html">
+            <button type="button"> العقارات </button>
+          </a>
+    
+       
+    </div> 
+    <img src="./images (1).png" alt="house">
+</header> 
+<br>
+<div class="title-box">
+  <h1>العقارات</h1>
+</div>
+    
+<main>
+    <table id="propertiesTable">
+        <thead>
+            <tr>
+                <th>المدينة</th>
+                <th>تفاصيل</th>
+                <th>الإيجار الشهري</th>
+                <th>إظهار التفاصيل</th>
+                <th>اختيار</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>دمشق</td>
+                <td>شقة غرفة وصالة مساحة 70 م</td>
+                <td>500,000 ل.س</td>
+                <td><button onclick="toggleDetails(this)"> </button></td>
+                <td><input   type="checkbox" name="selectProperty"></td>
+            </tr>
+            <tr class="details" style="display:none;">
+                <td colspan="5">
+                    <div class="prr">
+                    <p>المنطقة: ركن الدين</p>
+                    <p>متوفر كراج</p>
+                    <p>الطابق الثالث</p>
+                    <p>الملكية: طابو</p>
+                    <p>بلكون مساحة 12 متر</p>
+                    <p>مفروشة</p>
+                    </div > 
+                    <div class="img">
+                        <img src="./photo_1 1.jpg" alt="صالون">
+                        <img src="./photo_1  20.jpg" alt="مدخل">
+                        <img src="./photo_1  38.jpg" alt="حمام">
+      
+                      </div>
+                     </div>  
+                  </td>
+              </tr>
+              <tr>
+                  <td>حمص</td>
+                  <td>دكان - مساحة 50 م</td>
+                  <td>250000 ل.س</td>
+                  <td><button onclick="toggleDetails(this)"> </button></td>
+                  <td><input type="checkbox" name="selectProperty"></td>
+              </tr>
+              <tr class="details" style="display:none;">
+                <td colspan="5">
+                    <div class="prr"> <p>المنطقة: السوق</p>
+                      <p>الطابق الأول</p>
+                      <p>الملكية: إيجار</p>
+                      <p>شبابيك حديد</p>
+                      <br>
+      
+                      <div class="img">
+                        <img src="./photo_2  14.jpg" alt="شبابيك حديد">
+                        <img src="./photo_2 2.jpg" alt="صالون">
+                      </div>
+                    </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>دمشق</td>
+                  <td>شقة فارغة - غرفتين وصالة - مساحة 110 م</td>
+                  <td>600000 ل.س</td>
+                  <td><button onclick="toggleDetails(this)"> </button></td>
+                  <td><input type="checkbox" name="selectProperty"></td>
+              </tr>
+              <tr class="details" style="display:none;">
+                <td colspan="5">
+                    <div class="prr"><p>المنطقة: المزة</p>
+                      <p>الطابق الخامس</p> 
+                      <p>الملكية: طابو</p>
+                      <p> غرفة نوم 3</p>
+                      <p>2 حمام</p>
+                      <p>مطبخ مجهز</p>  
+                      <br>
+      
+                       <div class="img">
+                       <img src="./تصميم بدون عنوان.png" >
+                      <img src="./1.png">
+                      <img src="./2.png" >
+                      </div>
+                    </div>
+                  </td>
+              </tr>
+              <tr>
+                <td>اللاذقية </td>
+                <td>شقة فارغة - غرفةوصالة - مساحة 65 م</td>
+                <td>750000 ل.س</td>
+                <td><button onclick="toggleDetails(this)"> </button></td>
+                <td><input type="checkbox" name="selectProperty"></td>
+            </tr>
+            <tr class="details" style="display:none;">
+                <td colspan="5">
+                <div class="prr"> <p>المنطقة: قرب الكورنيش الجنوبي </p>
+                  <p>متوفر كراج</p>
+                  <p>الطابق الخامس</p>
+                  <p>الملكية: طابو</p>
+                  <p>بلكون مساحة 17 متر</p>
+                  <p> غير مفروشة</p>
+                  <p>يوجد مصعد </p>
+                  <br>
+      
+                  <div class="img">
+                    <img src="./photo_4 1.jpg" alt="صالون">
+                    <img src="./photo_4  2.jpg" alt="مدخل">
+                    <img src="./photo_4  3.jpg" alt="حمام">
+                  </div>
+                </div>
+              </td>
+          </tr>
+      
+          <tr>
+            <td>دمشق </td>
+            <td>شقة مفروشة -  ثلاث غرف- مساحة 100 م</td>
+            <td>120000 ل.س</td>
+            <td><button onclick="toggleDetails(this)"> </button></td>
+            <td><input type="checkbox" name="selectProperty"></td>
+        </tr>
+        <tr class="details" style="display:none;">
+            <td colspan="5">
+            <div class="prr"> <p>المنطقة:   المالكي  </p>
+              <p>متوفر كراج</p>
+              <p>الطابق السابع</p>
+              <p>الملكية: طابو</p>
+              <p>  مفروشة</p>
+              <p>يوجد مصعد </p>
+              <p>الملكية: طابو </p>
+              <br>
+      
+              <div class="img">
+              <img src="./photo_5   1.jpg" alt="مطبخ">
+              <img src="./photo_5   2.jpg" alt="غرفة طعام">
+              <img src="./photo_5   38.jpg" alt="غرفة نوم">
+              </div>
+            </div>
+          </td>
+      </tr>
+      
+      
+      
+      <tr>
+        <td>دمشق </td>
+        <td>مكتب  مفروش - غرفة واحدة - مساحة 55 م</td>
+        <td>145000 ل.س</td>
+        <td><button onclick="toggleDetails(this)"> </button></td>
+        <td><input type="checkbox" name="selectProperty"></td>
+      </tr>
+      <tr class="details" style="display:none;">
+        <td colspan="5">
+        <div class="prr"><p>المنطقة:   برج دمشق  </p>
+          <p>متوفر كراج</p>
+          <p>الطابق الواحد وعشرون</p>
+          <p>الملكية: الإيجار</p>
+          <p> مفروشة</p>
+          <p>يوجد مصعد </p>
+          <p>المكتب الثلاثون</p>
+          <br>
+      
+          <div class="img">
+            <img src="./photo.6   1.jpg" alt="المدخل">
+            <img src="./photo_6   2.jpg" alt="المكتب">
+            <img src="./photo_6  3.jpg" alt="المكتب">
+          </div>
+        </div>  
+      </td>
+      </tr>
+      
+      
+      <tr>
+      <td>دمشق </td>
+      <td>  محل تجاري- مساحة 40 م</td>
+      <td>190000 ل.س</td>
+      <td><button onclick="toggleDetails(this)"> </button></td>
+      <td><input type="checkbox" name="selectProperty"></td>
+      </tr>
+      <tr class="details" style="display:none;">
+        <td colspan="5">
+      <div class="prr"> <p>المنطقة:    ابو رمانة  </p>
+      <p>الملكية: الإيجار</p>
+      <p> فارغ</p>
+      <p> يوجد مطبخ صغير </p>
+      <br>
+      
+      <div class="img">
+        <img src="./photo_7  1.jpg" alt="المكتب">
+        <img src="./photo_  7   2.jpg" alt="المدخل">
+      </div>
+      </div>
+      </td>
+      </tr>
+      
+      
+      
+      <tr>
+      <td>حماة </td>
+      <td>  محل تجاري- مساحة 50 م</td>
+      <td>220000 ل.س</td>
+      <td><button onclick="toggleDetails(this)"> </button></td>
+      <td><input type="checkbox" name="selectProperty"></td>
+      </tr>
+      <tr class="details" style="display:none;">
+        <td colspan="5">
+      <div class="prr"> <p>المنطقة: بجانب النواعير   </p>
+      <p>الملكية: طابو</p>
+      <p> مفروش صالون حلاقة رجالية </p>
+      <br>
+      
+      <div class="img">
+        <img src="./photo_8  1.jpg" alt="مكان الانتظار">
+        <img src="./photo_8   2.jpg" alt="الصالون">
+        <img src="./photo_8   39.jpg" alt="حمام الشعر">
+      </div>
+      </div>
+      </td>
+      </tr>
+      
+      <tr>
+      <td>ريف دمشق </td>
+      <td>  فيلا طابقين - مساحة 900 م</td>
+      <td>520000 ل.س</td>
+      <td><button onclick="toggleDetails(this)"></button></td>
+                <td><input type="checkbox" name="selectProperty"></td>
+      </tr>
+      <tr class="details" style="display:none;">
+        <td colspan="5">
+      <div class="prr"> <p>المنطقة:       الزبداني  
+      <p>الملكية: طابو</p>
+      <p>   غير مفروشة  </p>
+      <p> مساحة البناء 400م</p>
+       <p>   يوجد4 غرف نوم    </p>
+        <p> غرفتين معيشة </p>
+        <p>   مطبخ في كل طابق  </p>
+        <p>     حمام في كل طابق</p>
+          <p>  يوجد شقفة ارض زراعية بمساحة 600م  </p>
+      
+          <br>
+      
+      
+      <div class="img">
+        <img src="./631874963-800x600.jpg" alt="فيلا ">
+        <img src="./631874964-800x600.jpg" alt="الصالون">
+        <img src="./631874966-800x600.jpg" alt=" الطابق الاول">
+      
+      </div>
+      </div>
+      </td>
+      </tr>
+      
+      
+      
+      
+      <tr>
+      <td>طرطوس  </td>
+      <td>   شقة مساحة 35 م</td>
+      <td>220000 ل.س</td>
+      <td><button onclick="toggleDetails(this)"></button></td>
+      <td><input type="checkbox" name="selectProperty"></td>
+      </tr>
+      <tr class="details" style="display:none;">
+        <td colspan="5">
+      <div class="prr"> <p>المنطقة:  بجانب شاطئ    
+      <p>الملكية: الإيجار</p>
+      <p>غرفة واحدة</p>
+      <p> مطبخ مدمج بالغرفة صغير</p>
+      <br>
+      
+      <div class="img">
+        <img src="./673037508-800x600.jpg" alt="غرفة النوم">
+        <img src="./673037510-800x600.jpg" alt="المطبخ">
+        <img src="./673037513-800x600.jpg" alt=" قسم ثاني من الغرفة">
+      
+      </div>
+      </div>
+      </td>
+      </tr>
+      
+              </tbody>
+      </table>
+      <br>
+      <section>
+        <h2>سلة المشتريات</h2>
+
+        <table id="basket-table">
+            <tr>
+                <th>المدينة</th>
+                <th>التفاصيل</th>
+                <th>السعر</th>
+            </tr>
+        </table>
+        <div id="totals">
+          <p><strong>المجموع الاجمالي :</strong> <span id="subtotal">0 ل.س</span></p>
+      </div>
+        <div class="container">
+          <button onclick="openFollowUpForm()">  متابعة </button>
+        </div>
+        <br>
+      
+      <form id="follow-up-form" style="display: none;">
+       
+      
+      
+        <div class="form-group">
+          <label for="fullName">الاسم الكامل:</label>
+          <input type="text" id="fullName" name="fullName" required pattern="[أ-ي\s]+" placeholder="أدخل اسمك الكامل">
+        </div>
+        <div class="form-group">
+          <label for="nationalId">الرقم الوطني:</label>
+          <input type="text" id="nationalId" name="nationalId" required pattern="^(0[1-8]\d{9}|09\d{8})$" placeholder="أدخل رقمك الوطني">
+        </div>
+        <div class="form-group">
+          <label for="motherDob">تاريخ ميلاد الولادة:</label>
+          <input type="date" id="motherDob" name="motherDob" required>
+        </div>
+        <div class="form-group">
+          <label for="mobileNumber">رقم الموبايل:</label>
+          <input type="tel" id="mobileNumber" name="mobileNumber" required pattern="^(09[0-9]|07[0-9])\d{7}$" placeholder="أدخل رقم هاتفك (Syriatel/MTN)">
+        </div>
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني (اختياري)">
+        </div>
+        <div class="form-group">
+          <label for="captcha">CAPTCHA:</label>
+          <div id="captcha-container">
+            <span id="captcha"></span>
+            <button type="button" onclick="refreshCaptcha()">تحديث</button>
+          </div>
+          <input type="text" id="captcha-input" name="captcha-input" required placeholder="أدخل رمز CAPTCHA">
+        </div>
+        <div class="send">
+          <button type="submit">إرسال</button>
+        </div>
+        
+      
+       
+
+      </form> 
+      
+      </section>
+      <div class="full-page-image">
+        <img src="./photo_خلفية9.jpg" alt="عقار">
+      </div>
+
+
+
+      
+      
+      <script src="./script.js"></script>
+      </body>
+      </html>
+      
